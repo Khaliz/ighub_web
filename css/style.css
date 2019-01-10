@@ -1,0 +1,14 @@
+body{
+		padding: 0;
+		margin: 0;
+	}
+	
+	.img{
+	background-image: url("../img/slide1.jpg")!important;
+
+	background-repeat: no-repeat;
+
+	height:400px;
+	background-size: cover!important;
+	
+}
