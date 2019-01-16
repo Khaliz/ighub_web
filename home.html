@@ -4,533 +4,586 @@
 	<title></title>
     
 	
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-	<style>
-
-body{
-		padding: 0;
-		margin: 0;
-	}
-	
-	.img{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("img/slide1.jpg")!important;
-	color: white;
-
-	background-repeat: no-repeat;
-    width: 100%!important;
-	height:500px;
-	background-size: cover!important;
-	
-	}
-
-	.img1{
-
-	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("img/staff.jpg")!important;
-	color: white;
-
-	background-repeat: no-repeat;
-
-	height:500px;
-	width: 100%!important;
-	background-size: cover!important;
-	
-
-
-	}
-
-
-   .img2{
-
-   	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("img/slide1.jpg")!important;
-	color: white;
-
-	background-repeat: no-repeat;
-    width: 100%!important;
-	height:500px;
-	background-size: cover!important;
-	
-
-
-   }
-   
-
-  
-
-   nav{
-   	background-color: transparent;
-   }
-
-
-   	#service{
-   		background-image: url("img/gg.png")!important;
-   		background-repeat: no-repeat;
-   		width: 100%!important;
-   		height: 400px;
-   		margin-top: 2rem;
-   		background-size: cover!important;
-   	}
-
-   #font-size{
-
-   	font-size: 70px;
-   }
-  
-   #ice{
-   	display: flex!important;
-   	justify-content: space-around!important;
-   }
-    #foot{
-   	background-color: #000000b3;
-   	width: 100%;
-   	color: white;
-   	height: 450px;
-   	padding-top: 9rem;
-   	font-size: 20px;
-   	padding-left: 9rem;
-
-   }
-
-   #icon{
-   	font-size: 7rem;
-   }
-
-   #icon5{
-   	font-size: 5rem;
-   }
-
-   #active{
-   	display: flex!important;
-   	justify-content: space-around;
-   }
-   
-   .follow{
-   	height: 10rem;
-   	width: 10rem;
-   	border-radius: 50%;
-   	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
-   }
-
-   #post{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("img/slide1.jpg")!important;
-    width: 100%;
-
-	background-repeat: no-repeat;
-
-	height:350px;
-   }
-
-  
-
-   a{
-   	color: white!important;
-   }
-
-   
-   }
-
-   #old{
-
-   }
-  
-
-	</style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/loader.css">
 
 
 </head>
 
+<body class="demo">
 
 
-<body>
+<div id="loader-wrapper">
+  <div id="loader"></div>
 
-   
+  <div class="loader-section section-left"></div>
+  <div class="loader-section section-right"></div>
 
-       <div id="main" class="carousel slide" data-ride="carousel">
-
-	      <!-- Indicators -->
-		  <ul class="carousel-indicators">
-		    <li data-target="#main" data-slide-to="0" class="active"></li>
-		    <li data-target="#main" data-slide-to="1"></li>
-		    <li data-target="#main" data-slide-to="2"></li>
-		  </ul>
-	  
-		  <!-- The slideshow -->
-		  <div class="carousel-inner">
-		    <div class="carousel-item active">
-
-		      <div class="img">
-
-		           <nav class="navbar navbar-expand-lg">
-					  <a class="navbar-brand" href="#"><img src="img/white.png" style="height: 3rem;"></a>
-					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
-					    <span class="navbar-toggler-icon" style="color: white;"></span>
-					  </button>
-
-					   <div class="collapse navbar-collapse" id="navbar1">
-						    <ul class="navbar-nav ml-auto">
-						      
-						      <li class="nav-item">
-						        <a class="nav-link" href="#">About</a>
-						      </li>
-						      <li class="nav-item dropdown">
-						        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						          What We Do ?
-						        </a>
-						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						          <a class="dropdown-item" href="#">Action</a>
-						          <a class="dropdown-item" href="#">Another action</a>
-						          <div class="dropdown-divider"></div>
-						          <a class="dropdown-item" href="#">Something else here</a>
-						        </div>
-						      </li>
-						      <li class="nav-item">
-						        <a class="nav-link" href="#">Blog</a>
-						      </li>
-						      <li class="nav-item">
-						        <a class="nav-link" href="#" id="contact">Contact</a>
-						      </li>
-						    </ul>
-					    </div>
-				    </nav>
-
-				    <div class="hero mx-auto pt-5 text-center pl-5">
-
-					  <h1 class="display-4">Ideate. Innovate. Incubate</h1>
-					  <p>"No Innovation in Abia state will die under my watch"</p>
-
-					  <div id="hero-links">
-
-						  <a href="btn btn-lg" id="blow">SEE OUR SERVICES</a>
-						  <a href="btn btn-lg" id="old">GET IN TOUCH</a>
-
-		             </div>
-		            </div> 
-
-	          </div>  
+</div>
 
 
-		    </div>
-		      
-		    <div class="carousel-item">
-               <div class="img1">
-			       <nav class="navbar navbar-expand-lg">
-						<a class="navbar-brand" href="#"><img src="img/white.png" style="height: 3rem;">
-						</a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar2" aria-controls="navbar2" aria-expanded="false" aria-label="Toggle navigation">
-						    <span class="navbar-toggler-icon" style="color: white;"></span>
-						</button>
 
-						<div class="collapse navbar-collapse" id="navbar2">
-					      <ul class="navbar-nav ml-auto">
-							      
-							    <li class="nav-item">
-							        <a class="nav-link" href="#">About</a>
-							    </li>
-							    
-							    <li class="nav-item dropdown">
-							        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							          What We Do ?
-							        </a>
-							        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							          <a class="dropdown-item" href="#">Action</a>
-							          <a class="dropdown-item" href="#">Another action</a>
-							          <div class="dropdown-divider"></div>
-							          <a class="dropdown-item" href="#">Something else here</a>
-							        </div>
-							    </li>
-							    <li class="nav-item">
-							        <a class="nav-link" href="#">Blog</a>
-							    </li>
-							    <li class="nav-item">
-							        <a class="nav-link" href="#" id="contact">Contact</a>
-							    </li>
-							</ul>
-						</div>
-					</nav>
 
-					<div class="hero mx-auto pt-5 text-center pl-5">
+  <div id="main" class="carousel vert slide" data-ride="carousel" data-interval="2000">
 
-						<h1 class="display-4">Ideate. Innovate. Incubate</h1>
+    
+      <ol class="carousel-indicators nav flex-column" id="my-flex">
+        <li data-target="#main" id="indic" data-slide-to="0" class="active"></li>
+        <li data-target="#main"  id="indic" data-slide-to="1"></li>
+       <li data-target="#main" id="indic" data-slide-to="2"></li>
+        <li data-target="#main"  id="indic" data-slide-to="3"></li>
+      </ol>
+    
+    
+    <div class="carousel-inner">
 
-						<p>"No Innovation in Abia state will die under my watch"</p>
+      <div class="carousel-item img active">
 
-						<div id="hero-links">
+        <nav class="navbar navbar-expand-lg fixed-top animated lightSpeedIn delay-1s">
 
-						  <a href="btn btn-lg">SEE OUR SERVICES</a>
-						  <a href="btn btn-lg">GET IN TOUCH</a>
+          <a class="navbar-brand" href="#"><img src="img/white.png" style="height: 3rem;"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="    navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: red!important;"></span>
+          </button>
 
-			            </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-			      </div>
-			    </div>  
-		     
-		    </div>
-		    <div class="carousel-item">
+            <ul class="navbar-nav ml-auto">
+                                        
+              <li class="nav-item">
 
-		       <div class="img2">
-			       <nav class="navbar navbar-expand-lg">
-						<a class="navbar-brand" href="#"><img src="img/white.png" style="height: 3rem;">
-						</a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar3" aria-controls="navbar3" aria-expanded="false" aria-label="Toggle navigation">
-						    <span class="navbar-toggler-icon" style="color: white;"></span>
-						</button>
+                <a class="nav-link" href="#">About</a>
+              </li>
 
-						<div class="collapse navbar-collapse" id="navbar3">
-					      <ul class="navbar-nav ml-auto">
-							      
-							    <li class="nav-item">
-							        <a class="nav-link" href="#">About</a>
-							    </li>
-							    
-							    <li class="nav-item dropdown">
-							        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							          What We Do ?
-							        </a>
-							        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							          <a class="dropdown-item" href="#">Action</a>
-							          <a class="dropdown-item" href="#">Another action</a>
-							          <div class="dropdown-divider"></div>
-							          <a class="dropdown-item" href="#">Something else here</a>
-							        </div>
-							    </li>
-							    <li class="nav-item">
-							        <a class="nav-link" href="#">Blog</a>
-							    </li>
-							    <li class="nav-item">
-							        <a class="nav-link" href="#" id="contact">Contact</a>
-							    </li>
-							</ul>
-						</div>
-					</nav>
+              <li class="nav-item dropdown">
 
-					<div class="hero mx-auto pt-5 text-center pl-5">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup ="true" aria-expanded="false">
+                 What We Do ?
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 
-						<h1 class="display-4">Ideate. Innovate. Incubate</h1>
+                 <a class="dropdown-item" href="#">Action</a>
+                 <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+              </li>
+              <li class="nav-item">
 
-						<p>"No Innovation in Abia state will die under my watch"</p>
+                <a class="nav-link" href="#">Blog</a>
 
-						<div id="hero-links">
+               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-						  <a href="btn btn-lg">SEE OUR SERVICES</a>
-						  <a href="btn btn-lg">GET IN TOUCH</a>
+        <div class="hero mx-auto pt-5 text-center pl-5" style="padding-top: 5rem!important">
 
-			            </div>
+          <h1 class="display-5 pt-5" style="font-size: 60px!important;">Ideate. Innovate. Incubate</h1>
+          <p>"No Innovation in Abia state will die under my watch"</p>
 
-			      </div>
-			    </div>  
-		      
-		    </div>
-		  </div>
-		  
-		  <!-- Left and right controls -->
-		  <a class="carousel-control-prev" href="#main" data-slide="prev">
-		    <span class="carousel-control-prev-icon"></span>
-		  </a>
-		  <a class="carousel-control-next" href="#main" data-slide="next">
-		    <span class="carousel-control-next-icon"></span>
-		  </a>
-		</div>
-   
-  
+          <div id="hero-links" class="pt-5">
+
+            <a href="btn btn-lg" class="pr-5" id="blow">SEE OUR SERVICES</a>
+            <a href="btn btn-lg" id="old">GET IN TOUCH</a>
+
+          </div>
+
+        </div> 
+      </div>
+
+      <div class="carousel-item img1">
+
+
+        <nav class="navbar navbar-expand-lg fixed-top lightSpeedIn delay-1s">
+
+          <a class="navbar-brand" href="#"><img src="img/white.png" style="height: 3rem;"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="    navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: white;"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ml-auto">
+                                        
+              <li class="nav-item">
+
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+              <li class="nav-item dropdown">
+
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup ="true" aria-expanded="false">
+                 What We Do ?
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                 <a class="dropdown-item" href="#">Action</a>
+                 <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+
+                <a class="nav-link" href="#">Blog</a>
+
+               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+        <div class="hero mx-auto pt-5 text-center pl-5" style="padding-top: 5rem!important">
+
+         <h1 class="display-4 pt-5" style="font-size: 60px!important;">Ideate. Innovate. Incubate</h1>
+          <p>"No Innovation in Abia state will die under my watch"</p>
+
+          <div id="hero-links" class="pt-5">
+
+           <a href="btn btn-lg" class="pr-5" id="blow">SEE OUR SERVICES</a>
+           <a href="btn btn-lg" id="old">GET IN TOUCH</a>
+
+          </div>
+
+        </div> 
+      </div>
+
+
+      <div class="carousel-item img2">
+
+
+        <nav class="navbar navbar-expand-lg fixed-top lightSpeedIn delay-1s">
+
+          <a class="navbar-brand" href="#"><img src="img/white.png" style="height: 3rem;"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="    navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: white;"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ml-auto">
+                                        
+              <li class="nav-item">
+
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+              <li class="nav-item dropdown">
+
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup ="true" aria-expanded="false">
+                 What We Do ?
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                 <a class="dropdown-item" href="#">Action</a>
+                 <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+
+                <a class="nav-link" href="#">Blog</a>
+
+               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+        <div class="hero mx-auto pt-5 text-center pl-5" style="padding-top: 5rem!important">
+
+         <h1 class="display-4 pt-5" style="font-size: 60px!important;">Ideate. Innovate. Incubate</h1>
+          <p>"No Innovation in Abia state will die under my watch"</p>
+
+          <div id="hero-links" class="pt-5">
+
+           <a href="btn btn-lg" class="pr-5" id="blow">SEE OUR SERVICES</a>
+           <a href="btn btn-lg" id="old">GET IN TOUCH</a>
+
+          </div>
+
+        </div> 
+      </div>
+
+
+      <div class="carousel-item img1">
+
+
+        <nav class="navbar navbar-expand-lg fixed-top lightSpeedIn delay-1s">
+
+          <a class="navbar-brand" href="#"><img src="img/white.png" style="height: 3rem;"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: white;"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ml-auto">
+                                        
+              <li class="nav-item">
+
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+              <li class="nav-item dropdown">
+
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup ="true" aria-expanded="false">
+                 What We Do ?
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                 <a class="dropdown-item" href="#">Action</a>
+                 <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+              </li>
+              <li class="nav-item">
+
+                <a class="nav-link" href="#">Blog</a>
+
+               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+        <div class="hero mx-auto pt-5 text-center pl-5" style="padding-top:5rem!important;">
+
+         <h1 class="display-4 pt-5" style="font-size: 60px!important;">Ideate. Innovate. Incubate</h1>
+          <p>"No Innovation in Abia state will die under my watch"</p>
+
+          <div id="hero-links" class="pt-5 ">
+           
+
+           <a href="btn btn-lg" class="pr-5" id="blow">SEE OUR SERVICES</a>
+           <a href="btn btn-lg" id="old">GET IN TOUCH</a>
+
+          </div>
+
+        </div>
+
+      </div> 
+
+    </div>     
+
+
+    <a class="carousel-control-next animated bounce infinite" href="#main" id="angle-down" role="button" data-slide="next">
+      <!-- <span class="carousel-control-next-icon" id="next-icon" aria-hidden="true"></span> -->
+     <!--  <i class="fal fa-angle-double-down"></i> -->
+     <i class="fas fa-angle-double-down animated bounce" style="font-size:48px;" id="next-icon"></i>
+      <span class="sr-only">Next</span>
+    </a>
+
+  </div>
+
   <div class="container">
-	   <div class="one mt-5 pt-5">
-	      
-	      <div class="prosper d-flex justify-content-center">
 
-			  <div id="line"></div>
+    <div class="one row mt-5 pt-5">
 
-			  <h2>WHO WE ARE ?</h2>
-		  </div>
+      <div class="col-2">
 
-		  <p class="text-center" style="font-size: 1rem;">Contrary to belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical <br/> literature from 42BC, making it over 2000 years old. Richard McClinctock, a Latin professor at Syndey <br/> College in Virigina, looked up one of these latin word , consectetur from.
+      </div>
 
-	  </div>
+      <div class="col-8">
 
-	   <div class="two">
+        
+        <div class="animated bounceInRight infinite delay-2s duration-3s" style="animation-duration: 4s;">  
 
-		  <h2 class="text-center">WHAT WE DO</h2>
+          <div class="row">
 
-		  <p class="text-center" style="font-size: 1rem;">We use the latest technologies to provide the best software engineering solutions <br/> that respond to modern market needs</p>
+            <div class="col-sm-12  col-md-2 col-lg-2">
 
-	  </div>
+              <div id="line1"><hr></div>
+
+            </div>
+            
+            <div class="col-lg-8">
+              <h2 class="pl-2 text-center animated fadeInDown delay-3s">WHO WE ARE </h2>
+            </div>
+
+            <div class="col-2">
+
+            </div>
+          </div>
+          <p class="text-center" style="font-size: 1rem;">Contrary to belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical <br/> literature from 42BC, making it over 2000 years old. Richard McClinctock, a Latin professor at Syndey <br/> College in Virigina, looked up one of these latin word , consectetur from.</p>
+      
+        </div>
+        <div class="col-2">
+        
+        </div>
+      </div>  
+    </div>
+
+     <div class="one row mt-5 pt-5">
+
+      <div class="col-2">
+
+      </div>
+
+      <div class="col-8">
+
+        
+        <div class="animated bounceInLeft infinite delay-2s" style="animation-duration: 4s;">  
+
+          <div class="row">
+
+            <div class="col-2">
+
+              
+            </div>
+            
+            <div class="col-lg-8">
+              <h2 class="pl-2 animated fadeInDown delay-3s text-center">WHAT WE DO</h2>
+            </div>
+
+            <div class="col-sm-12  col-md-2 col-lg-1">
+              <div id="line1"><hr></div>
+            </div>
+          </div>
+          <p class="text-center" style="font-size: 1rem;">We use the latest technologies to provide the best software engineering solutions <br/> that respond to modern market needs</p>
+
+      
+        </div>
+        <div class="col-2">
+        
+        </div>
+      </div>  
+    </div>
+   
+  </div>
+  
+  <!-- ALL TABS FOR INCUBATION TRAINING ETC STARTS HERE -->
+
+  <div class="container animated fadeInDown delay-2s" style="margin-top: 10rem;">
+
+    <ul class="nav nav-tabs d-flex justify-content-around" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#home"><img src="img/drop.jpg" style="height: 5rem;" id="inc">
+
+        <span><p style="color:black!important;">INCUBATION</p></span></a>
+        
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu1"><i class="fas fa-chalkboard-teacher" style="color:black!important" id="icon5"></i><span><p style="color:black!important;">TRAINING</p></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu2"><i class="fas fa-chalkboard-teacher" style="color:black!important" id="icon5"></i><span><p style="color:black!important;">OUTSOURCING</p></span></a>
+      </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div id="home" class="row tab-pane active"> 
+
+        <div class="col-sm-12 col-md-12 animated infinite slideInLeft delay-8s" style="animation-duration: 5s;">
+
+          <div class="card" style="max-height: 40rem; box-shadow: 10px 10px 10px 10px #888888;" id="test">
+
+            <div class="card-body pt-5 pl-5">
+
+              <div class="row pl-4 animated infinite fadeIn delay-4s" style="animation-duration: 4s;">
+
+                <div class="col-sm-4 col-md-5">
+
+                  <i class="fas fa-chalkboard-teacher" style="font-size:4rem;"></i>
+
+                </div>
+
+                <div class="col-sm-12 col-md-6" id="display">
+
+                  <p class="card-text" style="font-size: 20px;">Lorem Ipsum is just a dummy text of the printing <br/> and typesetting industry. Lorem Ipsum has been  the <br/> industry's standard dummy text ever since 1950s, <br/> when an unknown printer took gallery of type</p>
+
+                </div>
+
+              </div>
+            </div>    
+          </div>
+        </div>
+      </div>
+
+      
+      <div id="menu1" class="row tab-pane fade">
+
+        <div class="col-sm-12 col-md-12">
+
+          <div class="card" style="max-height: 40rem; box-shadow: 10px 10px 10px 10px #888888;">
+
+            <div class="card-body pt-5 pl-5">
+
+              <div class="row pl-4" style="animation-duration: 4s;">
+
+                <div class="col-sm-4 col-md-5">
+
+                  <img src="img/hello.jpg" style="height: 5rem;" id="inc">
+
+                </div>
+
+                <div class="col-sm-12 col-md-6">
+
+
+                  <p class="card-text" style="font-size: 20px;">Lorem Ipsum is just a dummy text of the printing <br/> and typesetting industry. Lorem Ipsum has been  the <br/> industry's standard dummy text ever since 1950s, <br/> when an unknown printer took gallery of type</p>
+
+                </div>
+
+              </div>
+            </div>    
+          </div>
+        </div>
+        
+      </div>
+      <div id="menu2" class="row tab-pane fade">
+
+        <div class="col-sm-12 col-md-12" id="test">
+
+          <div class="card" style="max-height: 40rem; box-shadow: 10px 10px 10px 10px #888888;">
+
+            <div class="card-body pt-5 pl-5">
+
+              <div class="row pl-4 animated infinite fadeIn delay-5s" style="animation-duration: 4s;">
+
+                <div class="col-sm-4 col-md-5">
+
+                  <img src="img/drop.jpg" style="height: 5rem;" id="inc">
+
+                </div>
+
+                <div class="col-sm-12 col-md-6">
+
+
+                  <p class="card-text" style="font-size: 20px;">Lorem Ipsum is just a dummy text of the printing <br/> and typesetting industry. Lorem Ipsum has been  the <br/> industry's standard dummy text ever since 1950s, <br/> when an unknown printer took gallery of type</p>
+
+                </div>
+
+              </div>
+            </div>    
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  <!-- ALL TABS AND CONTENTS FOR INCUBATION ENDS HERE -->
+     
+
+  <div class="container" style="margin-top: 10rem;" id="service">
+
+    <h4 class="text-center">OUR SERVICES</h4>
+
+     
+
+    <div class="row" id="service-row">
+
+      <div class="col-sm-5 col-md-6 col-lg-6 mt-3">
+
+        <div class="card animated slideInLeft delay-10s" style="height: 20rem; max-height: 40rem; box-shadow: 10px 10px 10px 10px #888888;" id="service-card1">
+
+          <div class="card-body">
+
+            <div class="text-center mt-5"><i class="fas fa-desktop pt-3" id="font-size"></i></div>
+
+            <h5 class="text-center pt-5">WEB DEVELOPMENT</h5>
+
+          </div>
+               
+        </div>
+
+      </div>
+
+
+      <div class="col-sm-5 col-md-6 col-lg-6 mt-3" id="service2">
+
+        <div class="card animated slideInLeft delay-10s" style="height: 20rem; max-height: 40rem; box-shadow: 10px 10px 10px 10px #888888;" id="service-card2">
+              
+          <div class="card-body">
+
+            <div class="text-center pt-5 mt-2"><i class="fas fa-mobile-alt pt-3" id="font-size"></i></div>
+                          
        
-       <div class="container" id="close">
-		   <div class="row pl-5">
+            <h5 class="text-center pt-5">MOBILE DEVELOPMENT</h5>
 
-			   <div class="col-4 pr-5">
+          </div>
+               
+        </div>
 
-				   <div class="incubate">
-
-		           
-		             <img src="img/drop.jpg" style="height: 5rem;" id="inc">
-
-		             <p>INCUBATION</p>
-
-	  
-				   </div>   
-			   </div>
-
-			   <div class="col-4">
-
-				   <div class="incubate">
-		           
-			           <i class="fas fa-chalkboard-teacher" id="icon5"></i>
-
-			           <p>TRAINING</p>
-
-				   </div>
-
-			   </div>
-
-			   <div class="col-4 pl-5">
-
-				    <div class="inc">
-
-					    <i class="fas fa-chalkboard-teacher" id="icon5"></i>
-
-					    <p>OUTSOURCING</p>
+      </div>
+    </div>
+  </div>    
 
 
-				    </div>
-
-	           </div>
-		  </div>
-		</div>  
-
-
-
-
-	   <div class="row">
-
-		   <div class="col">
-
-			    <div class="card" style="height: 15rem;">
-
-                  <div class="card-body pt-5 pl-5">
-
-	                   <div class="row pl-4">
-
-		                    <div class="col">
-
-		                      <i class="fas fa-chalkboard-teacher" id="icon"></i>
-
-		                  </div>
-
-		                   <div class="col">
-
-
-		                     <p class="card-text" style="font-size: 20px;">Lorem Ipsum is just a dummy text of the printing <br/> and typesetting industry. Lorem Ipsum has been  the <br/> industry's standard dummy text ever since 1950s, <br/> when an unknown printer took gallery of type</p>
-
-		                  </div>
-
-	                  </div>
-	                </div>  
-         
-			    </div>
-
-		   </div>
-
-	  </div>
-
-
-  </div>
-
-  <div class="container-fluid" id="service">
-
-	   <h4 class="text-center">OUR SERVICES</h4>
-
-	   <div id="ice">
-
-		   <div class="row">
-
-				<div class="col">
-
-					<div class="card" style="width: 18rem; height: 20rem;">
-
-		                <div class="card-body">
-
-		                <div class="card-img-top text-center mt-5"><i class="fas fa-desktop pt-3" id="font-size"></i></div>
-
-		                <h5 class="text-center pt-5">WEB DEVELOPMENT</h5>
-
-		                </div>
-		         
-					</div>
-
-				</div>
-
-				<div class="col">
-
-					<div class="card" style="width: 18rem; height: 20rem;">
-
-		                <div class="card-body">
-
-		                 <div class="card-img-top text-center pt-5 mt-2"><i class="fas fa-mobile-alt pt-3" id="font-size"></i></div>
-		                    
-		 
-		                 <h5 class="text-center pt-5">MOBILE DEVELOPMENT</h5>
-
-		                </div>
-		         
-					</div>
-
-				</div>
-
-			</div>
-	   </div>
-  </div>
-
-
-   <div class="container hello">
+  <div class="container animated flip delay-10s hello" style="margin-top: 10rem;">
 
       <h4 class="text-center">PORTFOLIO</h4>
 
-	   <div class="row">
+     <div class="row" id="port-row">
 
+        <div class="col-sm-12 col-md-4 col-lg-4">
 
+          <div class="card mt-4" id="port-card1">
+          <img class="card-img-top" src="img/hello.jpg"  alt="Card image cap">
+          <div class="card-body">
 
-		    <div class="col">
-
-			    <div class="card" style="width: 18rem;">
-				  <img class="card-img-top" src="img/hello.jpg"   alt="Card image cap">
-				  <div class="card-body">
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				   </div> 
-				</div>
+            <h3>DUMMY TEXT</h3>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           </div> 
+        </div>
            </div>
 
-		    
+        
 
-		    <div class="col">
+        <div class="col-sm-6 col-md-4 col-lg-4">
 
-			    <div class="card" style="width: 18rem;">
-				  <img class="card-img-top" src="img/hello.jpg" alt="Card image cap">
-				  <div class="card-body">
-				     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    </div>
-				</div>
+          <div class="card mt-4" id="port-card2">
+          <img class="card-img-top" src="img/hello.jpg" alt="Card image cap">
+          <div class="card-body">
+              <H3>DUMMY TEXT</H3>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
            </div>
 
-		    <div class="col">
+        <div class="col-sm-6 col-md-4 col-lg-4">
 
-			    <div class="card" style="width: 18rem;">
-				  <img class="card-img-top" src="img/hello.jpg" alt="Card image cap">
-				   <div class="card-body">
-				     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				   </div>  
-				</div>
+          <div class="card mt-4" id="port-card3">
+          <img class="card-img-top" src="img/hello.jpg" alt="Card image cap">
+           <div class="card-body">
+              <H3>DUMMY TEXT</H3>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           </div>  
+        </div>
            </div>
-	  </div>
-        <div id="more" class="d-flex justify-content-center">
-	      <a class="btn btn-lg btn-success" href="">More</a>
-	    </div>
+    </div>
+        <div id="more" class="d-flex justify-content-center" style="margin-top:5rem!important;">
+        <a class="btn btn-lg btn-success" href="">More</a>
+      </div>
 
-	</div>
+  </div>
 
-	<!-- SOMETHING IS GOING TO BE HERE -->
-    <!-- TESMONIAL STARTS HERE -->
-   <div class="container">
 
+
+  <!-- TESMONIAL STARTS HERE -->
+  <div class="container" style="margin-top: 10rem">
+       
+       <h4 class="text-center mb-4">TESTIMONIAL</h4>
 
      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -540,205 +593,232 @@ body{
   </ol>
   <div class="carousel-inner">
 
-     <h4 class="text-center">TESTIMONIAL</h4>
+     
     <div class="carousel-item active">
        
-       <div id="end" class="d-flex justify-content-center">
-	       <div class="card ml-5 pl-5" style="width: 18rem; height: 20rem;">
+      <div id="end" class="d-flex justify-content-center">
 
-			  <div class="card-body mt-3 pt-5">
+        <div class="row">
 
-				 <p class="card-text">Dummny text to place in here, figure out what to place here from your content developers</p>
+          <div class="col-2">
 
-				   <div id="mike">
-					 <p class="card-text">Jeffery Mike</p>
-					 <small>TBWA</small>
-				  </div>
 
-			    </div>
 
-		    </div>
-	    </div>
+          </div>
+
+          <div class="col-8 mb-5">
+   
+            <i class="fas fa-quote-left" style="font-size: 30px;"></i>
+          
+          </div>
+
+          <div class="col-2">
+
+          
+
+          </div>
+
+        </div>
+
+        <div class="card" style="height: 30rem!important; max-width: 28rem!important;">
+
+          <div class="card-body mt-3 pt-5">
+
+           <p class="card-text" style="font-size: 20px;">Dummny text to place in here, figure out what to place here from your content developers</p>
+
+            <div id="mike">
+              <p class="card-text" style="font-size: 20px;">Jeffery Mike</p>
+              <small>TBWA</small>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
     </div>
 
     <div class="carousel-item">
 
         <div id="end" class="d-flex justify-content-center">
       
-	      <div class="card ml-5 pl-5" style="width: 18rem; height: 20rem;">
+        <div class="card" style="height: 30rem!important; max-width: 28rem!important;">
 
-			  <div class="card-body mt-3 pt-5">
+        <div class="card-body mt-3 pt-5">
 
-				 <p class="card-text">Dummny text to place in here, figure out what to place here from your content developers</p>
+         <p class="card-text" style="font-size: 20px;">Dummny text to place in here, figure out what to place here from your content developers</p>
 
-				   <div id="mike">
-					 <p class="card-text">Jeffery Mike</p>
-					 <small>TBWA</small>
-				  </div>
+           <div id="mike">
+           <p class="card-text" style="font-size: 20px;">Jeffery Mike</p>
+           <small>TBWA</small>
+          </div>
 
-			    </div>
+          </div>
 
-		    </div>
-		</div>    
+        </div>
+    </div>    
       
     </div>
     <div class="carousel-item">
 
       <div id="end" class="d-flex justify-content-center">
 
-	      <div class="card" style="width: 18rem; height: 20rem;">
+        <div class="card" style="height: 30rem!important; max-width: 28rem!important;">
 
-			  <div class="card-body mt-3 pt-5">
+        <div class="card-body mt-3 pt-5">
 
-				 <p class="card-text">Dummny text to place in here, figure out what to place here from your content developers</p>
+         <p class="card-text" style="font-size: 20px;">Dummny text to place in here, figure out what to place here from your content developers</p>
 
-				   <div id="mike">
-					 <p class="card-text">Jeffery Mike</p>
-					 <small>TBWA</small>
-				  </div>
+           <div id="mike">
+           <p class="card-text" style="font-size: 20px;">Jeffery Mike</p>
+           <small>TBWA</small>
+          </div>
 
-			    </div>
+          </div>
 
-		    </div>
-		</div>    
+        </div>
+    </div>    
       
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="carousel-control-prev-icon" style="color:black!important;" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="carousel-control-next-icon" style="color:black!important;" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>
 
 
-   </div>
+  </div>
 
    <!-- TESMONIALS END HERE -->
 
+
    <!-- OUR PARTNERS STARTS HERE -->
 
-   <div class="container">
+   <div class="container" style="margin-top: 10rem!important">
+
+
+        <h4 class="pb-4 text-center">OUR PARTNERS</h4>
     
 
-		<div id="parallel" class="carousel slide" data-ride="carousel">
+    <div id="parallel" class="carousel slide" data-ride="carousel">
 
-		  <!-- Indicators -->
-		  <ul class="carousel-indicators">
-		    <li data-target="#parallel" data-slide-to="0" class="active"></li>
-		    <li data-target="#parallel" data-slide-to="1"></li>
-		    <li data-target="#parallel" data-slide-to="2"></li>
-		  </ul>
-		  
-		  <!-- The slideshow -->
-		  <div class="carousel-inner">
-		    <div class="carousel-item active">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#parallel" data-slide-to="0" class="active"></li>
+        <li data-target="#parallel" data-slide-to="1"></li>
+        <li data-target="#parallel" data-slide-to="2"></li>
+      </ul>
+      
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
 
-		       <div class="row">
+           <div class="row">
 
-			        <div class="col-3">
+              <div class="col-3">
 
-			         <img class="follow" src="img/slide1.jpg">
+               <img class="follow" src="img/slide1.jpg">
 
 
-			        </div>
+              </div>
 
-			        <div class="col-3">
+              <div class="col-3">
 
-			          <img class="follow" src="img/slide1.jpg">
+                <img class="follow" src="img/slide1.jpg">
 
-			        </div>
+              </div>
 
-			        <div class="col-3">
+              <div class="col-3">
 
-			           <img class="follow" src="img/slide1.jpg">
+                 <img class="follow" src="img/slide1.jpg">
 
-			        </div>
+              </div>
 
-			        <div class="col-3">
+              <div class="col-3">
 
-			            <img class="follow" src="img/slide1.jpg">
+                  <img class="follow" src="img/slide1.jpg">
 
-			        </div>
+              </div>
 
-		      </div>
-		      
-		    </div>
-		    <div class="carousel-item">
+          </div>
+          
+        </div>
+        <div class="carousel-item">
 
-		      <div class="row">
+          <div class="row">
 
-			        <div class="col-3">
+              <div class="col-3">
 
-			            <img class="follow" src="img/hello.jpg">
+                  <img class="follow" src="img/hello.jpg">
 
-			        </div>
+              </div>
 
-			        <div class="col-3">
+              <div class="col-3">
 
-			           <img class="follow" src="img/hello.jpg">
+                 <img class="follow" src="img/hello.jpg">
 
-			        </div>
+              </div>
 
-			        <div class="col-3">
+              <div class="col-3">
 
-			           <img class="follow" src="img/hello.jpg">
+                 <img class="follow" src="img/hello.jpg">
 
-			        </div>
+              </div>
 
-			        <div class="col-3">
+              <div class="col-3">
 
-			           <img class="follow" src="img/hello.jpg">
+                 <img class="follow" src="img/hello.jpg">
 
-			        </div>
+              </div>
 
-		      </div>
-		     
-		    </div>
-		    <div class="carousel-item">
+          </div>
+         
+        </div>
+        <div class="carousel-item">
 
-		       <div class="row">
+           <div class="row">
 
-			        <div class="col-3">
+              <div class="col-3">
 
-			           <img class="follow" src="img/hello.jpg">
+                 <img class="follow" src="img/hello.jpg">
 
-			        </div>
+              </div>
 
-			        <div class="col-3">
+              <div class="col-3">
 
-			           <img class="follow" src="img/hello.jpg">
+                 <img class="follow" src="img/hello.jpg">
 
-			        </div>
+              </div>
 
-			        <div class="col-3">
+              <div class="col-3">
 
-			           <img class="follow" src="img/hello.jpg">
+                 <img class="follow" src="img/hello.jpg">
 
-			        </div>
+              </div>
 
-			        <div class="col-3">
+              <div class="col-3">
 
-			           <img class="follow" src="img/hello.jpg">
+                 <img class="follow" src="img/hello.jpg">
 
-			        </div>
+              </div>
 
-		      </div>
-		      
-		    </div>
-		  </div>
-		  
-		  <!-- Left and right controls -->
-		  <a class="carousel-control-prev" href="#parallel" data-slide="prev">
-		    <span class="carousel-control-prev-icon"></span>
-		  </a>
-		  <a class="carousel-control-next" href="#parallel" data-slide="next">
-		    <span class="carousel-control-next-icon"></span>
-		  </a>
-		</div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#parallel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#parallel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
    
 
    </div> 
@@ -746,334 +826,415 @@ body{
 
    <!-- OUR PARTNERS ENDS HERE -->
 
-
-   <!-- RECENT FROM THE BLOG STARTS HERE -->
+  <!-- RECENT FROM THE BLOG STARTS HERE -->
    
-   <div class="container mt-5" style="margin-top: 20rem!important">
+  <div class="container mt-5" style="margin-top: 10rem!important">
       
-        <h5 class="text-center">RECENT FROM THE BLOG</h5>
+        <h5 class="text-center pb-4">RECENT FROM THE BLOG</h5>
 
-		<div id="demo" class="carousel slide" data-ride="carousel">
+    <div id="demo" class="carousel slide" data-ride="carousel">
 
-		  <!-- Indicators -->
-		  <ul class="carousel-indicators">
-		    <li data-target="#demo" data-slide-to="0" class="active"></li>
-		    <li data-target="#demo" data-slide-to="1"></li>
-		    <li data-target="#demo" data-slide-to="2"></li>
-		  </ul>
-		  
-		  <!-- The slideshow -->
-		  <div class="carousel-inner">
-			    <div class="carousel-item active">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+          <div class="carousel-item active">
 
-			      <div class="row">
+            <div class="row">
 
-				        <div class="col-4">
+                <div class="col-4">
 
-				           <div id="post">
+                   <div id="post">
 
-				                <a href="#" class="pt-5">Events</a>
+                        <a href="#" class="pt-5">Events</a>
 
-					           <div class="home pl-2  mt-4 pt-5" style="color:white;">
+                     <div class="home pl-2  mt-4 pt-5" style="color:white;">
 
-						           <h5 class="display-4">GDG 2018</h5>
-						           <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
+                       <h5 class="display-4">GDG 2018</h5>
+                       <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
 
-					           </div>
+                     </div>
 
-				           </div>
+                   </div>
 
-				        </div>
+                </div>
 
-				        <div class="col-4">
+                <div class="col-4">
 
-				           <div id="post">
+                   <div id="post">
 
-				                <a href="#" class="pt-5">Events</a>
+                        <a href="#" class="pt-5">Events</a>
 
-					           <div class="home pl-2  mt-4 pt-5" style="color:white;">
+                     <div class="home pl-2  mt-4 pt-5" style="color:white;">
 
-						           <h5 class="display-4">GDG 2018</h5>
-						           <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
+                       <h5 class="display-4">GDG 2018</h5>
+                       <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
 
-					           </div>
+                     </div>
 
-				           </div>
-				        </div>
+                   </div>
+                </div>
 
-				        <div class="col-4">
+                <div class="col-4">
 
-				            <div id="post">
+                    <div id="post">
 
-				                <a href="#" class="pt-5">Events</a>
+                        <a href="#" class="pt-5">Events</a>
 
-					           <div class="home pl-2  mt-4 pt-5" style="color:white;">
+                     <div class="home pl-2  mt-4 pt-5" style="color:white;">
 
-						           <h5 class="display-4">GDG 2018</h5>
-						           <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
+                       <h5 class="display-4">GDG 2018</h5>
+                       <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
 
-					           </div>
+                     </div>
 
-				           </div>
+                   </div>
 
-				        </div>
+                </div>
 
-				       
+               
 
-			        </div>
-		      
-		        </div>
-			    <div class="carousel-item">
+              </div>
+          
+            </div>
+          <div class="carousel-item">
 
-			      <div class="row">
+            <div class="row">
 
-				        <div class="col-4">
+                <div class="col-4">
                             <div id="post">
 
-				                <a href="#" class="pt-5">Events</a>
+                        <a href="#" class="pt-5">Events</a>
 
-					           <div class="home pl-2  mt-4 pt-5" style="color:white;">
+                     <div class="home pl-2  mt-4 pt-5" style="color:white;">
 
-						           <h5 class="display-4">GDG 2018</h5>
-						           <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
+                       <h5 class="display-4">GDG 2018</h5>
+                       <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
 
-					           </div>
+                     </div>
 
-				           </div>
+                   </div>
 
-				        </div>
+                </div>
 
-				        <div class="col-4">
+                <div class="col-4">
 
-				          <div id="post">
+                  <div id="post">
 
-				                <a href="#" class="pt-5">Events</a>
+                        <a href="#" class="pt-5">Events</a>
 
-					           <div class="home pl-2  mt-4 pt-5" style="color:white;">
+                     <div class="home pl-2  mt-4 pt-5" style="color:white;">
 
-						           <h5 class="display-4">GDG 2018</h5>
-						           <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
+                       <h5 class="display-4">GDG 2018</h5>
+                       <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
 
-					           </div>
+                     </div>
 
-				           </div>
+                   </div>
 
-				        </div>
+                </div>
 
-				        <div class="col-4">
+                <div class="col-4">
 
-				           <div id="post">
+                   <div id="post">
 
-				                <a href="#" class="pt-5">Events</a>
+                        <a href="#" class="pt-5">Events</a>
 
-					           <div class="home pl-2  mt-4 pt-5" style="color:white;">
+                     <div class="home pl-2  mt-4 pt-5" style="color:white;">
 
-						           <h5 class="display-4">GDG 2018</h5>
-						           <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
+                       <h5 class="display-4">GDG 2018</h5>
+                       <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
 
-					           </div>
+                     </div>
 
-				           </div>
+                   </div>
 
-				        </div>
+                </div>
 
-				       
+               
 
-			        </div>
-			      
-			    </div>
-			    <div class="carousel-item">
-			       
-			       <div class="row">
+              </div>
+            
+          </div>
+          <div class="carousel-item">
+             
+             <div class="row">
 
-				        <div class="col-4">
+                <div class="col-4">
 
-				           <div id="post">
+                   <div id="post">
 
-				                <a href="#" class="pt-5">Events</a>
+                        <a href="#" class="pt-5">Events</a>
 
-					           <div class="home pl-2  mt-4 pt-5" style="color:white;">
+                     <div class="home pl-2  mt-4 pt-5" style="color:white;">
 
-						           <h5 class="display-4">GDG 2018</h5>
-						           <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
+                       <h5 class="display-4">GDG 2018</h5>
+                       <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
 
-					           </div>
+                     </div>
 
-				           </div>
-
-
-				        </div>
-
-				        <div class="col-4">
-
-				          <div id="post">
-
-				                <a href="#" class="pt-5">Events</a>
-
-					           <div class="home pl-2  mt-4 pt-5" style="color:white;">
-
-						           <h5 class="display-4">GDG 2018</h5>
-						           <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
-
-					           </div>
-
-				           </div>
-
-				        </div>
-
-				        <div class="col-4">
-
-				           <div id="post">
-
-				                <a href="#" class="pt-5">Events</a>
-
-					           <div class="home pl-2  mt-4 pt-5" style="color:white;">
-
-						           <h5 class="display-4">GDG 2018</h5>
-						           <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
-
-					           </div>
-
-				           </div>
+                   </div>
 
 
-				        </div>
+                </div>
 
-				        
-			        </div>
-			    </div>
-		  </div>
-		  
-		  <!-- Left and right controls -->
-		  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-		    <span class="carousel-control-prev-icon"></span>
-		  </a>
-		  <a class="carousel-control-next" href="#demo" data-slide="next">
-		    <span class="carousel-control-next-icon"></span>
-		  </a>
-		</div>
+                <div class="col-4">
+
+                  <div id="post">
+
+                        <a href="#" class="pt-5">Events</a>
+
+                     <div class="home pl-2  mt-4 pt-5" style="color:white;">
+
+                       <h5 class="display-4">GDG 2018</h5>
+                       <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
+
+                     </div>
+
+                   </div>
+
+                </div>
+
+                <div class="col-4">
+
+                   <div id="post">
+
+                        <a href="#" class="pt-5">Events</a>
+
+                     <div class="home pl-2  mt-4 pt-5" style="color:white;">
+
+                       <h5 class="display-4">GDG 2018</h5>
+                       <p id="home">Dummny text to place in here,<br/> figure out what to place here<br/> from your content developers</p>
+
+                     </div>
+
+                   </div>
+
+
+                </div>
+
+                
+              </div>
+          </div>
+      </div>
+      
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
 
    </div>
 
 
    <!-- RECENT FROM THE BLOG ENDS HERE -->
+  </div> 
+
+  <div class="container mt-5">
+
+    <div class="row mt-5">
+
+      <div class="col-2">
 
 
+      </div>
 
-   <!-- <div class="container">
-      
-       
-	    <p>Want to know about all the awesome things happening at IGHUB, Subscribe to our Newsletter</p>
+      <div class="col-8 mt-5">
+
+        <p style="font-size:15px;">Want to know about all the awesome things happening at IGHUB, Subscribe to our Newsletter.</p>
+
+        <form>
+
+          <div class="form-group">
+            
+            <div class="d-flex">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+             
+
+             <button type="submit" class="btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+         
+       </form>
+      </div>
+
+      <div class="col-2">
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+  
+  <!-- Footer -->
+ <footer class="page-footer font-small indigo" id="foot" style="margin-top: 5rem!important;">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto" id="fline1">
+
+          <!-- Links -->
+
+          <ul class="list-unstyled">
+            <li>
+             <a href="#">Ig Academy</a>
+             
+            </li>
+            
+            <li>
+              <a href="#">Join our Community</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto" id="fline2">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">About</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#">Company</a>
+            </li>
+             <a href="#">Work</a>
+          </li>
+
+          <li>
+            <a href="#">Careers</a>
+          </li>
+
+          <li>
+            <a href="#">Blog</a>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto" id="fline3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">Contact</h5>
+
+          <ul class="list-unstyled">
+            <li>
+               <p>62 Asa Road by Ehi <br/> Road 5th floor Och House Aba, <br/> Abia State</p>
+            </li>
+            <li>
+              <p>+234 803 678 1234</p>
         
-        <div class="d-flex justify-content-center">
-		   <form id="max">
-			   <div class="form-row">
-				    <div class="col-4">
-				      <input type="text" class="form-control"id="subscribe" placeholder="City">
-				    </div>
-				    <div class="col">
-				       <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
-				    </div>
-			   </div>
-		    </form>	    
-	    </div>
+            </li>
+            <li>
+              <p>email@ighub.com.ng</p>
+            </li>
+            
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+
+        <!-- Grid column -->
+        <div class="col-md-3 mx-auto" id="fline4">
+
+          <!-- Links -->
+          
+
+          <ul class="list-unstyled" id="flist">
+            <li>
+              <a href="#" id="icon1"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#" id="icon1"><i class="fab fa-medium-m"></i></a>
+            </li>
+            <li>
+              <a href="#" id="icon1"><i class="fab fa-tumblr"></i></a>
+            </li>
+            <li>
+              <a href="#" id="icon1"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+
+            <a href="#" id="icon1"><i class="fab fa-invision"></i></a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <!-- <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
     </div> -->
+    <!-- Copyright -->
 
+  </footer>
+  <!-- Footer -->
 
-    <div id="foot" style="margin-top: 30rem!important;" class="mt-5">
-	    <div class="container-fluid">
-		    <div class="row">
-
-			    <div class="col-3">
-	                <div id="foot1"></div>
-	   
-				   <ul class="nav flex-column">
-			     	
-				     	<li class="nav-item">
-				     		<a class="nav-link">Ig Academy</a>
-				     	</li>
-
-				     	<li class="nav-item">
-				     		<a class="nav-link">Join our Community</a>
-				     	</li>
-	                </ul>
-			    </div>
-
-			    <div class="col-3">
-			        <h4>About</h4>
-
-			       <ul class="nav flex-column">
-			     	
-				     	<li class="nav-item">
-				     		<a class="nav-link">Company</a>
-				     	</li>
-
-				     	<li class="nav-item">
-				     		<a class="nav-link">Work</a>
-				     	</li>
-
-				     	<li class="nav-item">
-				     		<a class="nav-link">Careers</a>
-				     	</li>
-
-				     	<li class="nav-item">
-				     		<a class="nav-link">Blog</a>
-				     	</li>
-			      </ul>
-
-
-			    </div>
-
-			    <div class="col-3">
-
-			      <h4>Contact</h4>
-		          <p>62 Asa Road by Ehi <br/> Road 5th floor Och House Aba, <br/> Abia State</p>
-		          <p>+234 803 678 1234</p>
-		          <p>email@ighub.com.ng</p>
-
-			    </div>
-
-			    <div class="col-3">
-
-				    <ul class="nav flex-column">
-				     	
-					    <li class="nav-item">
-					     		
-					      <a class="nav-link" id="icon1"><i class="fab fa-instagram"></i></a>
-					     		
-					    </li>
-
-					    <li class="nav-item">
-					    	<a class="nav-link" id="icon1"><i class="fab fa-medium-m"></i></a>
-					    </li>
-
-					    <li class="nav-item">
-					      <a class="nav-link" id="icon1"><i class="fab fa-tumblr"></i></a>
-					    </li>
-
-					    <li class="nav-item">
-					     	<a class="nav-link" id="icon1"><i class="fab fa-facebook-f"></i></a>
-					    </li>
-
-					    <li class="nav-item">
-					     	<a class="nav-link" id="icon1"><i class="fab fa-invision"></i></a>
-					    </li>
-
-				    </ul>
-
-			    </div>
-		    </div>
-		</div>    
-	</div>	
-
-
-
- 
-
-
+  
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+    <script>
+
+    
+    $(document).ready(function() {
+    
+    setTimeout(function(){
+      $('body').addClass('loaded');
+      
+    }, 2000);
+    
+  });
+
+    $(document).ready(function() {
+  // Check if element is scrolled into view
+  function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+  }
+  // If element is scrolled into view, fade it in
+  $(window).scroll(function() {
+    $('.scroll-animations .animated').each(function() {
+      if (isScrolledIntoView(this) === true) {
+        $(this).addClass('fadeInLeft');
+      }
+    });
+  });
+});
+    </script>
 
 </body>
 </html>
