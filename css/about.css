@@ -1,0 +1,155 @@
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+
+
+   .img{
+
+   	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("../img/slide1.jpg")!important;
+	color: white;
+
+	background-repeat: no-repeat;
+    width: 100%!important;
+	height:550px;
+	background-size: cover!important;
+	
+
+   }
+
+
+  
+   #team{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("../img/staff.jpg")!important;
+    background-size: cover!important;
+	background-repeat: no-repeat;
+
+	height:280px;
+	width: 100%!important;
+   }  
+
+ #foot{
+   	background-color: #000000b3;
+   	width: 100%;
+   	color: white;
+   	height: 550px;
+    padding-top: 10rem;
+   	font-size: 20px;
+   	padding-left: 5rem;
+
+   }
+
+  #twerk{
+  	background-color: grey!important;
+  	height: 120px;
+  	width: 100%!important;
+  	margin-top: 5rem;
+
+
+  }
+
+   #icon{
+   	font-size: 7rem;
+   }
+
+   #icon5{
+   	font-size: 5rem;
+   }
+ a{
+ 	color: white!important;
+ }  
+
+ @media only screen and (max-width: 775px)  {
+
+  
+  #foot{
+  	height: 600px!important;
+  	padding-top: 3rem!important;
+  	padding-right: 4rem!important; 
+  }
+
+
+ #flist{
+ 	  display: inline-flex !important;
+ 	 padding-right: 20px;
+ }
+
+
+}
+
+@media only screen and (max-width: 473px)  {
+
+#foot{
+  	height: 825px!important;
+  	padding-top: 5rem!important;
+  	padding-right: 4rem!important; 
+  }
+
+
+ #flist{
+ 	  display: inline-flex !important;
+ 	 padding-right: 20px;
+ }
+
+
+
+
+}
+
+@media only screen and (max-width: 767px)  {
+ 
+
+
+
+}
+
+
+@media only screen and (max-width: 485px)  {
+ 
+#about{
+	font-size: 70px!important;
+}
+
+ .navbar{
+    background-color: black!important;
+  }
+
+ 
+
+}
+
+@media only screen and (max-width: 485px)  {
+
+
+
+
+
+}
+
+@media (max-width: 418px) { 
+ 
+  #hle{
+  	font-size: 30px!important;
+  	padding-top: 3rem!important;
+  }
+  
+  #email{
+  	font-size: 15px;
+  }
+
+#foot{
+  	height: 800px!important;
+  	padding-top: 5rem!important;
+  	padding-right: 4rem!important; 
+  }
+
+
+
+}
+
+#hmm{
+	
+}
