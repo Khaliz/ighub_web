@@ -46,6 +46,12 @@ body{
 	
 
    }
+
+
+.font-weight-bold {
+    font-weight: 700 !important;
+    color: #fe7929!important;
+}
    
 
   
@@ -54,6 +60,8 @@ body{
    	background-color: transparent;
    }
 
+   
+   
 
    	#service{
    		background-image: url("../img/fi.png");
@@ -73,16 +81,7 @@ body{
    	display: flex!important;
    	justify-content: space-around!important;
    }
-    #foot{
-   	background-color: #000000b3;
-   	width: 100%;
-   	color: white;
-   	height: 450px;
-   	padding-top: 9rem;
-   	font-size: 20px;
-   	padding-left: 9rem;
-
-   }
+ 
    
 
    #fline1, #fline2,#fline3{
@@ -127,6 +126,18 @@ body{
 	height:350px;
    }  
 
+   /*#blow{
+   	border: 3px solid green;
+   	background-color: green;
+   	color: white;
+   	width: 200px;
+   	color: white;
+   	border-radius: 40%;
+   	height: 40px;
+   	text-align: center;
+
+   }
+*/
 
    #test-sm{
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url("../img/slide1.jpg")!important;
@@ -168,37 +179,184 @@ body{
   margin-bottom: 40px;
 
   border-radius: 50%;
- 
 
 }
+
+#test-in, #partner, #blog{
+
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  padding: 10px;
+  background-color: #fe7929;
+
+  border-radius: 50%;
+
+}
+
+
+.caro .active {
+
+    background-color: grey!important;
+
+}
+
+#test-list, #partner-list, #blog-list{
+	position: absolute;
+    right: 0;
+    bottom: 0px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    top: inherit;
+    top: 28rem;
+}
+
+
+#partner-list{
+	position: absolute;
+    right: 0;
+    bottom: 0px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    top: inherit;
+    top: 12rem;
+}
+
+
+#blog-list{
+	position: absolute;
+    right: 0;
+    bottom: 0px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    top: inherit;
+    top: 24rem;
+}
+
+#partner1, #partner2 {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: space-between;
+    width: none;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: none;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+}
+
+
+ #port-card1, #port-card2, #port-card3{
+ 	box-shadow: 3px 3px 3px 3px #888888;
+ }
 
 a{
   color: white;
+  text-decoration: none!important;
 }
+
+a:hover{
+color:#fe7929;
+}
+
+.btn{
+  cursor: pointer
+}
+
+.btn-primary, .btn-success {
+
+    color: #fff;
+    background-color: #fe7929;
+    border-color: #fe7929;
+
+}
+
+.btn-primary:hover{
+	background-color: green;
+}
+
+.btn-success:hover{
+  background-color: green;
+}
+
+#blow1{
+    color: #fff;
+    background-color: #fe79294d;
+    border-radius:40px;
+}
+
+#blow1:hover{
+  background-color: #fe7929;
+}
+
+
+#old1{
+   color: #fff;
+   background-color: #80808033; 
+   border-radius: 40px;
+}
+
+#old1:hover{
+  background-color: grey;
+}
+
+#hero-links{
+  padding-top: 4rem;
+}
+
+
 
 #recent-sm{
   
   display: none;	
 }
-/*
-.carousel-indicators{
-
-position: absolute!important;
-z-index: 15;
-display: block;
-
-}*/
-/*
-#next-icon{
-  position: absolute;
-  
-  height: 70px!important;
-  width: 70px!important;
-  top: 20rem;
-
-
-}*/
-
 
 #my-flex {
     position: absolute;
@@ -253,41 +411,6 @@ hr{
   
 }
 
-/*@media screen and (max-width: 767px) and (min-width: 150px){*/
-
-/* @media screen and (max-width: 259px) and (min-width: 228px)  {
- 
-  #angle-down {
-    position: absolute;
-    top: 20rem;
-    bottom: 0;
-    left: 5rem;
-
-    
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    width: 15%;
-    color: #fff;
-    text-align: center;
-    opacity: .5;
-    
-  }
-
-
-  #my-flex {
-   display: none;
-}
-  
-
-  h1{
-  	font-size: 10px;
-  }
-
-
- }*/
 
  /*MEDIA QUERY FOR HERO IMAGES STARTS HERE*/
  @media screen and (max-width: 942px) and (min-width: 865px) {
@@ -388,7 +511,7 @@ hr{
   height: 15px!important;
   width: 15px!important;
   left: 10px;
-  margin-right: q0px;
+  margin-right: 0px;
   margin-bottom: 40px!important;
 
   border-radius: 50%!important;
@@ -398,6 +521,17 @@ hr{
 
 
 }
+
+ #foot{
+   	background-color: #212529 !important;
+   	width: 100%;
+   	color: white;
+   	padding-top: 5rem;
+   	font-size: 20px;
+   	padding-left: 9rem;
+   	padding-bottom: 3rem;
+
+   }
 
 @media screen and (max-width: 1049px) and (min-width: 945px) {
 
@@ -476,7 +610,7 @@ hr{
   #my-flex {
     position: absolute;
     display: inline-flex;
-    bottom: 1rem!important;
+    bottom: 0;
     left: 5rem;
     
     z-index: 1;
@@ -514,7 +648,7 @@ hr{
   height: 15px!important;
   width: 15px!important;
   left: 10px;
-  margin-right: q0px;
+  margin-right: 0px;
   margin-bottom: 40px!important;
 
   border-radius: 50%!important;
@@ -560,17 +694,22 @@ hr{
    	}
 
 
+ #icon1{
+ 	padding-right: 15px;
+ 	}
+
+  #old{
+    padding-top: 2rem;
+  }
+
+ 
+
+  }
 
 
   /*ENDS HERE*/
 
  
- 
-
- #icon1{
- 	padding-right: 15px;
- 	}
-
  
 
 
@@ -582,7 +721,7 @@ hr{
 
 
 
-@media only screen and (max-width: 777px)  {
+@media only screen and (max-width: 971px)  {
 
 #recent-lg{
   	display: none!important;
@@ -620,26 +759,17 @@ hr{
 
 
 
-  /*STYLINGS ENDS HER*/
+  /*STYLINGS ENDS HERE*/
 
 
 /*STYLING FOR FOOTER IN LARGE AND MOBILE VIEWS*/
 
-   #foot{
-   	background-color: #000000b3;
-   	width: 100%;
-   	color: white;
-   	height: 450px;
-   	padding-top: 9rem;
-   	font-size: 20px;
-   	padding-left: 9rem;
-
-   }
 
 
 
 a{
 color: white;
+cursor: pointer
 }
 
 #fline1, #fline2,#fline3{
@@ -657,7 +787,7 @@ color: white;
 
   #foot{
 
-  height: 820px;
+ 
   padding-left: 1rem;
   padding-top: 1rem;
 
@@ -669,6 +799,10 @@ color: white;
   
   #fline1, #fline2,#fline3{
   border:none;
+  }
+
+  #icon1{
+    padding-right: 15px;
   }
 
 
@@ -686,12 +820,15 @@ color: white;
 }
 @media screen and (min-width: 768px){
 
-#email{
-  font-size: 15px;
+p{
+  font-size: 0.9rem;
+}
+
+a{
+  font-size: 0.9rem;
 }
 
 }
-
 
 
 

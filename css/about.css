@@ -31,17 +31,88 @@ body{
 	width: 100%!important;
    }  
 
- #foot{
-   	background-color: #000000b3;
+
+
+
+  /*STYLING FOR THE TABS STARTS*/
+
+
+  @media only screen and (max-width: 466px) {
+
+  	#all-tabs{
+  		display: none;
+  	}
+  	#inc-mobile{
+  		display: block!important;
+  	}
+
+  	#sm1,#sm2{
+  		margin-top: 2rem;
+  	}
+  } 
+
+
+
+  /*STYLINGS ENDS HERE*/
+
+  #foot{
+   	background-color: #212529 !important;
    	width: 100%;
    	color: white;
-   	height: 550px;
-    padding-top: 10rem;
+   	padding-top: 5rem;
    	font-size: 20px;
-   	padding-left: 5rem;
+   	padding-left: 9rem;
+   	padding-bottom: 3rem;
 
    }
+   
+     #fline1, #fline2,#fline3{
+   	border-right: 3px solid white;
+   }
 
+
+
+.font-weight-bold {
+    font-weight: 700 !important;
+    color: #fe7929!important;
+}
+ 
+
+
+@media screen and (max-width: 767px) and (min-width: 150px){
+
+
+  #email{
+    font-size: 16px;
+  }
+
+  #foot{
+
+ 
+  padding-left: 1rem;
+  padding-top: 1rem;
+
+  }
+
+  #flist{
+    display: inline-flex;
+  }
+  
+  #fline1, #fline2,#fline3{
+  border:none;
+  }
+
+
+}
+
+
+   @media only screen and (max-width: 286px)  {
+   
+   #flist{
+   	display: inline-flex;
+   }
+
+   }
   #twerk{
   	background-color: grey!important;
   	height: 120px;
@@ -62,13 +133,13 @@ body{
  	color: white!important;
  }  
 
- @media only screen and (max-width: 775px)  {
+ @media only screen and (max-width: 767px)  {
 
   
   #foot{
-  	height: 600px!important;
+  	
   	padding-top: 3rem!important;
-  	padding-right: 4rem!important; 
+  	padding-right: 2rem!important; 
   }
 
 
@@ -76,17 +147,18 @@ body{
  	  display: inline-flex !important;
  	 padding-right: 20px;
  }
+  
+  #icon1{
+  	padding-right: 15px;
+   
+   }
+
 
 
 }
 
 @media only screen and (max-width: 473px)  {
 
-#foot{
-  	height: 825px!important;
-  	padding-top: 5rem!important;
-  	padding-right: 4rem!important; 
-  }
 
 
  #flist{
@@ -94,17 +166,8 @@ body{
  	 padding-right: 20px;
  }
 
-
-
-
 }
 
-@media only screen and (max-width: 767px)  {
- 
-
-
-
-}
 
 
 @media only screen and (max-width: 485px)  {
@@ -117,17 +180,14 @@ body{
     background-color: black!important;
   }
 
+  #icon1{
+  	padding-right: 15px;
+   
+   }
  
 
 }
 
-@media only screen and (max-width: 485px)  {
-
-
-
-
-
-}
 
 @media (max-width: 418px) { 
  
@@ -141,15 +201,51 @@ body{
   }
 
 #foot{
-  	height: 800px!important;
+  	
   	padding-top: 5rem!important;
-  	padding-right: 4rem!important; 
+  	
   }
 
+}
 
+@media screen and (min-width: 768px){
+
+p{
+  font-size: 0.9rem;
+}
+
+a{
+  font-size: 0.9rem;
+}
 
 }
+
+  @media screen and (max-width: 768px) and (min-width: 1115px) {
+   
+   
+   #fline3{
+   	padding-left: 4px;
+   }
+
+   }
+
+
+
+
+/*
+@media only screen and (max-width: 573px)  {
+
 
 #hmm{
-	
+	padding-right: 3rem!important;
 }
+
+
+
+}*/
+
+
+
+ #port-card1, #port-card2, #port-card3{
+ 	box-shadow: 3px 3px 3px 3px #888888;
+ }
